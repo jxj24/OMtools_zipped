@@ -1,0 +1,20 @@
+OMtools change log:
+
+8 Feb 2019:
+cleaned up grapcopy code, added optional output to destination axis window.
+
+7 Feb 2019:
+updated findwind to allow selection between searching Name and Tag fields.
+
+6 Feb 2019:
+updated nafx_act and nafx_gui to handle change in name of "EM Data Manager"
+window to "EM Data"
+
+5 Feb 2019:
+fixed edf2bin to not panic if sample frequency string (e.g."500") appears
+elsewhere in the message string being interpreted (most likely due to that
+"500" appearing in the time stamp of the message).
+
+Restored edf2bin ability (via user prompt) to concatenate sub-records in
+a multi-record EDF file.
+
